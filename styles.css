@@ -1,0 +1,277 @@
+body{
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background-color: #cecaca;
+}
+
+.main {
+  position: relative;
+  width: 1000px;
+  aspect-ratio: 16/9;
+  height: auto;
+  margin: auto;
+}
+
+.main__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.main__show-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.143);
+  color: white;
+  border-radius: 30px;
+}
+
+.main__plashka{
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main__show-img{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.main__info{
+  width: 300px;
+  height:100px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.5s;
+  font-size: medium;
+  z-index: 2;
+  visibility: hidden;
+  font-size: 10px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.plashka1{
+  bottom: 100px;
+  left: 150px;
+}
+
+.plashka2{
+  top: 150px;
+  left: 380px;
+}
+.plashka3{
+  top: 220px;
+  left: 450px;
+}
+.plashka4{
+  top: 190px;
+  left: 470px;
+}
+.plashka5{
+  top: 160px;
+  left: 480px;
+}
+.plashka6{
+  top: 80px;
+  left: 480px;
+}
+.plashka7{
+  top: 100px;
+  left: 510px;
+}
+.plashka8{
+  top: 130px;
+  left: 510px;
+}
+.plashka9{
+  top: 145px;
+  left: 520px;
+}
+.plashka10{
+  top: 95px;
+  left: 550px;
+}
+.plashka11{
+  top: 160px;
+  left: 580px;
+}
+.plashka12{
+  top: 180px;
+  left: 600px;
+}
+.plashka13{
+  top: 80px;
+  left: 570px;
+}
+.plashka14{
+  top: 40px;
+  left: 580px;
+}
+.plashka15{
+  top: 0px;
+  left: 650px;
+}
+.plashka16{
+  top: 80px;
+  left: 630px;
+}
+.plashka17{
+  top: 120px;
+  left: 660px;
+}
+.plashka18{
+  top: 300px;
+  left: 700px;
+}
+.plashka19{
+  top: 350px;
+  left: 850px;
+}
+.plashka20{
+  top: 140px;
+  left: 690px;
+}
+.plashka21{
+  top: 120px;
+  left: 730px;
+}
+.plashka22{
+  top: 150px;
+  left: 640px;
+}
+.plashka23{
+  top: 100px;
+  left: 740px;
+}
+
+.show1:hover + .info1 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show2:hover + .info2 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show3:hover + .info3 {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.show4:hover + .info4 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show5:hover + .info5 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show6:hover + .info6 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show7:hover + .info7 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show8:hover + .info8 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show9:hover + .info9 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show10:hover + .info10 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show11:hover + .info11 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show12:hover + .info12 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show13:hover + .info13 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show14:hover + .info14 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show15:hover + .info15 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show16:hover + .info16 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show17:hover + .info17 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show18:hover + .info18 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show19:hover + .info19 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show20:hover + .info20 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show21:hover + .info21 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show22:hover + .info22 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
+.show23:hover + .info23 {
+  display: block;
+  opacity: 1; 
+  visibility: visible;
+}
